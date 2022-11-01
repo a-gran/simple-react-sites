@@ -1,0 +1,11 @@
+{
+    "name": "wdb-mui",
+    "version": "1.0.0",
+    "description": "react, mui",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Aristarh Gran <awebdeff@gmail.com>",
+    "license": "ISC"
+}
