@@ -1,14 +1,19 @@
-// import logo from './logo.svg';
+import { AppBar, Container, Toolbar, IconButton } from '@mui/material';
+import React from 'react';
+import MenuIcon from '@mui/material/Menu';
 import './App.css';
-import Button from '@mui/material/Button';
 
 function App() {
     return (
-        <div className="App">
-            <Button variant="text">Text</Button>
-            <Button variant="contained">Contained</Button>
-            <Button variant="outlined">Outlined</Button>
-        </div>
+        <AppBar position="fixed">
+            <Container fixed>
+                <Toolbar>
+                    <IconButton edge="start" color="inherit" aria-label="menu">
+                        <MenuIcon />
+                    </IconButton>
+                </Toolbar>
+            </Container>
+        </AppBar>
     );
 }
 
